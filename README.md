@@ -126,7 +126,8 @@ $$ \mathbf{q} = \int \dot{\mathbf{q}} Dt \implies \mathbf{q}_{k+1} = \mathbf{q}_
 
 ![alt text](esquema.png)
 
-
+Esquema como esta en el enunciado:
+![alt text](grafo_rqt.jpg)
 
 ## Representación gráfica
 
