@@ -121,9 +121,6 @@ $$ \mathbf{q} = \int \dot{\mathbf{q}} Dt \implies \mathbf{q}_{k+1} = \mathbf{q}_
 ## Lanzar el nodo del simulador dinámico
 
 
-
-![alt text](app_esquema.png)
-
 ![alt text](esquema.png)
 
 Esquema como esta en el enunciado:
