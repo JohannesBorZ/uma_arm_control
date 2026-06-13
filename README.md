@@ -1,4 +1,4 @@
-# uma_arm_control
+# LAB 2: uma_arm_control
 This is the UMA arm control repo
 
 
