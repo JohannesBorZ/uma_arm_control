@@ -142,16 +142,12 @@ uma_arm_dynamics:
     g: 9.81
     q0: [0.785398, -0.785398]
 
-Posición 1:
-![alt text](posicion1_1.png)
-Posición 2:
-![alt text](posicion1_2.png)
-Posición 2 vs Velocidad 2:
-![alt text](pos1_2VSvel1_2.png)
+Posiciones:
+<img width="1408" height="1051" alt="exp1_pos" src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" />
 Velocidades:
-![alt text](velocidades1.png)
+<img width="1410" height="1054" alt="exp1_vel" src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" />
 Aceleraciones:
-![alt text](aceleraciones1.png)
+<img width="1405" height="1051" alt="exp1_acc" src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" />
 
 ![Simulación Experimento 1](exp1.gif)
 
