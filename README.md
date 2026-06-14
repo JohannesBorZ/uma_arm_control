@@ -120,12 +120,13 @@ $$ \mathbf{q} = \int \dot{\mathbf{q}} Dt \implies \mathbf{q}_{k+1} = \mathbf{q}_
 
 ## Lanzar el nodo del simulador dinámico
 
-<div align="center">
+<div align="center" style="margin-bottom:1rem;">
   <img src="esquema.png" alt="alt text" width="70%" />
 </div>
 
 Esquema como esta en el enunciado:
-<div align="center">
+
+<div align="center" style="margin-bottom:1.5rem;">
   <img src="grafo_rqt.jpg" alt="alt text" width="70%" />
 </div>
 
@@ -146,7 +147,8 @@ uma_arm_dynamics:
     q0: [0.785398, -0.785398]
 
 Posiciones:
-<div align="center">
+
+<div align="center" style="margin-bottom:1rem;">
   <span style="display:inline-block; width:45%; margin-right:4%; vertical-align:top;">
     <img src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" alt="exp1_pos" width="100%" />
   </span>
@@ -154,12 +156,14 @@ Posiciones:
     <img src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" alt="exp1_vel" width="100%" />
   </span>
 </div>
+
 Aceleraciones:
-<div align="center" style="margin-top:1rem;">
+
+<div align="center" style="margin-bottom:1rem;">
   <img src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" alt="exp1_acc" width="60%" />
 </div>
 
-<div align="center" style="margin-top:1rem;">
+<div align="center" style="margin-bottom:1.5rem;">
   <img src="exp1.gif" alt="Simulación Experimento 1" width="70%" />
 </div>
 
@@ -178,7 +182,8 @@ uma_arm_dynamics:
     q0: [0.785398, -0.785398]
 
 Posición 1:
-<div align="center">
+
+<div align="center" style="margin-bottom:1rem;">
   <span style="display:inline-block; width:45%; margin-right:4%; vertical-align:top;">
     <img src="posicion2_1.png" alt="alt text" width="100%" />
   </span>
@@ -188,7 +193,8 @@ Posición 1:
 </div>
 
 Velocidades:
-<div align="center" style="margin-top:1rem;">
+
+<div align="center" style="margin-bottom:1rem;">
   <span style="display:inline-block; width:45%; margin-right:4%; vertical-align:top;">
     <img src="velocidades2.png" alt="alt text" width="100%" />
   </span>
@@ -197,7 +203,7 @@ Velocidades:
   </span>
 </div>
 
-<div align="center" style="margin-top:1rem;">
+<div align="center" style="margin-bottom:1.5rem;">
   <img src="exp2.gif" alt="Simulación Experimento 2" width="70%" />
 </div>
 
@@ -216,7 +222,8 @@ uma_arm_dynamics:
     q0: [0.785398, -0.785398]
 
 Posiciones:
-<div align="center">
+
+<div align="center" style="margin-bottom:1rem;">
   <span style="display:inline-block; width:45%; margin-right:4%; vertical-align:top;">
     <img src="posiciones4.png" alt="alt text" width="100%" />
   </span>
@@ -226,7 +233,8 @@ Posiciones:
 </div>
 
 Aceleraciones:
-<div align="center" style="margin-top:1rem;">
+
+<div align="center" style="margin-bottom:1rem;">
   <img src="aceleraciones4.png" alt="alt text" width="60%" />
 </div>
 
