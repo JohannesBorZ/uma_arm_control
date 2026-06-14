@@ -169,10 +169,8 @@ uma_arm_dynamics:
     q0: [0.785398, -0.785398]
 ```
 
-Posición 1:
-![alt text](posicion2_1.png)
-Posición 2:
-![alt text](posicion2_2.png)
+Posiciones:
+<img width="1402" height="1045" alt="exp2_pos" src="https://github.com/user-attachments/assets/6f05f320-1855-4bec-aba9-74e6cff444ae" />
 Velocidades:
 ![alt text](velocidades2.png)
 Aceleraciones:
