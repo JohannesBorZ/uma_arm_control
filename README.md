@@ -119,18 +119,16 @@ $$ \mathbf{q} = \int \dot{\mathbf{q}} Dt \implies \mathbf{q}_{k+1} = \mathbf{q}_
 
 
 ## Lanzar el nodo del simulador dinámico
-<div align="center" style="margin:2rem 0 1rem 0;">
-  <img src="esquema.png" alt="esquema" width="70%" style="max-width:900px;" />
-  <br />
-  <em>Esquema del sistema</em>
-</div>
+<figure align="center" style="margin:2rem 0 1rem 0;">
+  <img src="esquema.png" alt="esquema" width="75%" style="max-width:1100px;" />
+  <figcaption><strong>Figura:</strong> Esquema del sistema</figcaption>
+</figure>
 
 Esquema como está en el enunciado:
-<div align="center" style="margin:1rem 0 2rem 0;">
-  <img src="grafo_rqt.jpg" alt="grafo_rqt" width="70%" style="max-width:900px;" />
-  <br />
-  <em>Representación con rqt_graph</em>
-</div>
+<figure align="center" style="margin:1rem 0 2rem 0;">
+  <img src="grafo_rqt.jpg" alt="grafo_rqt" width="75%" style="max-width:1100px;" />
+  <figcaption><strong>Figura:</strong> Representación del sistema con rqt_graph</figcaption>
+</figure>
 
 ## Representación gráfica
 
@@ -150,20 +148,23 @@ ros__parameters:
 ```
 
 #### Posición
-<div align="center" style="margin:0.8rem 0;">
-  <img src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" alt="exp1_pos" width="55%" style="max-width:700px; margin-right:2%;" />
-  <img src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" alt="exp1_vel" width="55%" style="max-width:700px;" />
-</div>
+<figure align="center" style="margin:0.8rem 0;">
+  <img src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" alt="exp1_pos" width="48%" style="max-width:800px; margin-right:2%;" />
+  <img src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" alt="exp1_vel" width="48%" style="max-width:800px;" />
+  <figcaption><strong>Figura:</strong> Posiciones del Experimento 1 (comparativa)</figcaption>
+</figure>
 
 #### Aceleración
-<div align="center" style="margin:0.8rem 0 1.2rem 0;">
-  <img src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" alt="exp1_acc" width="65%" style="max-width:900px;" />
-</div>
+<figure align="center" style="margin:0.8rem 0 1.2rem 0;">
+  <img src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" alt="exp1_acc" width="70%" style="max-width:1000px;" />
+  <figcaption><strong>Figura:</strong> Aceleraciones del Experimento 1</figcaption>
+</figure>
 
 #### Simulación
-<div align="center" style="margin:1rem 0 1.5rem 0;">
-  <img src="exp1.gif" alt="exp1_sim" width="70%" style="max-width:900px;" />
-</div>
+<figure align="center" style="margin:1rem 0 1.5rem 0;">
+  <img src="exp1.gif" alt="exp1_sim" width="75%" style="max-width:1000px;" />
+  <figcaption><strong>Figura:</strong> GIF de la simulación (Experimento 1)</figcaption>
+</figure>
 
 ### Experimento 2
 
@@ -182,21 +183,24 @@ ros__parameters:
 ```
 
 #### Posición
-<div align="center" style="margin:0.8rem 0;">
-  <img src="posicion2_1.png" alt="pos2_1" width="55%" style="max-width:700px; margin-right:2%;" />
-  <img src="posicion2_2.png" alt="pos2_2" width="55%" style="max-width:700px;" />
-</div>
+<figure align="center" style="margin:0.8rem 0;">
+  <img src="posicion2_1.png" alt="pos2_1" width="48%" style="max-width:800px; margin-right:2%;" />
+  <img src="posicion2_2.png" alt="pos2_2" width="48%" style="max-width:800px;" />
+  <figcaption><strong>Figura:</strong> Posiciones del Experimento 2</figcaption>
+</figure>
 
 #### Velocidad y Aceleración
-<div align="center" style="margin:0.8rem 0;">
-  <img src="velocidades2.png" alt="vel2" width="55%" style="max-width:700px; margin-right:2%;" />
-  <img src="aceleraciones2.png" alt="acc2" width="55%" style="max-width:700px;" />
-</div>
+<figure align="center" style="margin:0.8rem 0;">
+  <img src="velocidades2.png" alt="vel2" width="48%" style="max-width:800px; margin-right:2%;" />
+  <img src="aceleraciones2.png" alt="acc2" width="48%" style="max-width:800px;" />
+  <figcaption><strong>Figura:</strong> Velocidades y aceleraciones del Experimento 2</figcaption>
+</figure>
 
 #### Simulación
-<div align="center" style="margin:1rem 0 1.5rem 0;">
-  <img src="exp2.gif" alt="exp2_sim" width="70%" style="max-width:900px;" />
-</div>
+<figure align="center" style="margin:1rem 0 1.5rem 0;">
+  <img src="exp2.gif" alt="exp2_sim" width="75%" style="max-width:1000px;" />
+  <figcaption><strong>Figura:</strong> GIF de la simulación (Experimento 2)</figcaption>
+</figure>
 
 ### Experimento 3
 
@@ -215,13 +219,15 @@ ros__parameters:
 ```
 
 #### Posición y Velocidad
-<div align="center" style="margin:0.8rem 0;">
-  <img src="posiciones4.png" alt="pos3" width="55%" style="max-width:700px; margin-right:2%;" />
-  <img src="velocidades4.png" alt="vel3" width="55%" style="max-width:700px;" />
-</div>
+<figure align="center" style="margin:0.8rem 0;">
+  <img src="posiciones4.png" alt="pos3" width="48%" style="max-width:800px; margin-right:2%;" />
+  <img src="velocidades4.png" alt="vel3" width="48%" style="max-width:800px;" />
+  <figcaption><strong>Figura:</strong> Posición y velocidad (Experimento 3)</figcaption>
+</figure>
 
 #### Aceleración
-<div align="center" style="margin:1rem 0 1.5rem 0;">
-  <img src="aceleraciones4.png" alt="acc3" width="65%" style="max-width:900px;" />
-</div>
+<figure align="center" style="margin:1rem 0 1.5rem 0;">
+  <img src="aceleraciones4.png" alt="acc3" width="70%" style="max-width:1000px;" />
+  <figcaption><strong>Figura:</strong> Aceleraciones del Experimento 3</figcaption>
+</figure>
 
