@@ -175,7 +175,7 @@ Aceleraciones:
 
 ![Simulación Experimento 2](exp2.gif)
 
-### Experimento 4
+### Experimento 3
 
 uma_arm_dynamics:
   ros__parameters:
