@@ -184,8 +184,7 @@ ros__parameters:
 
 #### Posición
 <figure align="center" style="margin:0.8rem 0;">
-  <img src="posicion2_1.png" alt="pos2_1" width="48%" style="max-width:800px; margin-right:2%;" />
-  <img src="posicion2_2.png" alt="pos2_2" width="48%" style="max-width:800px;" />
+<img width="1402" height="1045" alt="exp2_pos" src="https://github.com/user-attachments/assets/3487d03a-2f12-47cd-9d53-680252471445" />
   <figcaption><strong>Figura:</strong> Posiciones del Experimento 2</figcaption>
 </figure>
 
