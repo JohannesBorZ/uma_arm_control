@@ -149,15 +149,20 @@ ros__parameters:
 
 #### Posición
 <figure align="center" style="margin:0.8rem 0;">
-  <img src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" alt="exp1_pos" width="48%" style="max-width:800px; margin-right:2%;" />
-  <img src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" alt="exp1_vel" width="48%" style="max-width:800px;" />
-  <figcaption><strong>Figura:</strong> Posiciones del Experimento 1 (comparativa)</figcaption>
+  <img src="exp1_pos.png" alt="exp1_pos" width="70%" style="max-width:1000px; display:block; margin:0 auto;" />
+  <figcaption style="text-align:center; font-size:0.95rem; margin-top:0.4rem;">Posición — Experimento 1</figcaption>
+</figure>
+
+#### Velocidad
+<figure align="center" style="margin:0.8rem 0;">
+  <img src="exp1_vel.png" alt="exp1_vel" width="70%" style="max-width:1000px; display:block; margin:0 auto;" />
+  <figcaption style="text-align:center; font-size:0.95rem; margin-top:0.4rem;">Velocidad — Experimento 1</figcaption>
 </figure>
 
 #### Aceleración
 <figure align="center" style="margin:0.8rem 0 1.2rem 0;">
-  <img src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" alt="exp1_acc" width="70%" style="max-width:1000px;" />
-  <figcaption><strong>Figura:</strong> Aceleraciones del Experimento 1</figcaption>
+  <img src="exp1_acc.png" alt="exp1_acc" width="70%" style="max-width:1000px; display:block; margin:0 auto;" />
+  <figcaption style="text-align:center; font-size:0.95rem; margin-top:0.4rem;">Aceleración — Experimento 1</figcaption>
 </figure>
 
 #### Simulación
@@ -184,15 +189,20 @@ ros__parameters:
 
 #### Posición
 <figure align="center" style="margin:0.8rem 0;">
-<img width="1402" height="1045" alt="exp2_pos" src="https://github.com/user-attachments/assets/3487d03a-2f12-47cd-9d53-680252471445" />
+  <img src="exp2_pos.png" alt="exp2_pos" width="70%" style="max-width:1000px;" />
   <figcaption><strong>Figura:</strong> Posiciones del Experimento 2</figcaption>
 </figure>
 
-#### Velocidad y Aceleración
+#### Velocidad
 <figure align="center" style="margin:0.8rem 0;">
-  <img src="velocidades2.png" alt="vel2" width="48%" style="max-width:800px; margin-right:2%;" />
-  <img src="aceleraciones2.png" alt="acc2" width="48%" style="max-width:800px;" />
-  <figcaption><strong>Figura:</strong> Velocidades y aceleraciones del Experimento 2</figcaption>
+  <img src="velocidades2.png" alt="vel2" width="70%" style="max-width:1000px; display:block; margin:0 auto;" />
+  <figcaption style="text-align:center; font-size:0.95rem; margin-top:0.4rem;">Velocidad — Experimento 2</figcaption>
+</figure>
+
+#### Aceleración
+<figure align="center" style="margin:0.8rem 0;">
+  <img src="aceleraciones2.png" alt="acc2" width="70%" style="max-width:1000px; display:block; margin:0 auto;" />
+  <figcaption style="text-align:center; font-size:0.95rem; margin-top:0.4rem;">Aceleración — Experimento 2</figcaption>
 </figure>
 
 #### Simulación
@@ -217,11 +227,16 @@ ros__parameters:
   q0: [0.785398, -0.785398]
 ```
 
-#### Posición y Velocidad
+#### Posición
 <figure align="center" style="margin:0.8rem 0;">
-  <img src="posiciones4.png" alt="pos3" width="48%" style="max-width:800px; margin-right:2%;" />
-  <img src="velocidades4.png" alt="vel3" width="48%" style="max-width:800px;" />
-  <figcaption><strong>Figura:</strong> Posición y velocidad (Experimento 3)</figcaption>
+  <img src="posiciones4.png" alt="pos3" width="70%" style="max-width:1000px; display:block; margin:0 auto;" />
+  <figcaption style="text-align:center; font-size:0.95rem; margin-top:0.4rem;">Posición — Experimento 3</figcaption>
+</figure>
+
+#### Velocidad
+<figure align="center" style="margin:0.8rem 0;">
+  <img src="velocidades4.png" alt="vel3" width="70%" style="max-width:1000px; display:block; margin:0 auto;" />
+  <figcaption style="text-align:center; font-size:0.95rem; margin-top:0.4rem;">Velocidad — Experimento 3</figcaption>
 </figure>
 
 #### Aceleración
