@@ -130,22 +130,19 @@ Esquema como esta en el enunciado:
 
 ### Experimento 1
 
-<p align="center" style="margin:0.4rem 0 0.6rem 0;"><strong>uma_arm_dynamics (parámetros) — Experimento 1</strong></p>
-
-<div align="center" style="max-width:720px; margin:0 auto;">
 ```yaml
-ros__parameters:
-  frequency: 1000.0
-  m1: 3.0
-  m2: 2.0
-  l1: 1.0
-  l2: 0.6
-  b1: 5.0
-  b2: 5.0
-  g: 9.81
-  q0: [0.785398, -0.785398]
+uma_arm_dynamics:
+  ros__parameters:
+    frequency: 1000.0
+    m1: 3.0
+    m2: 2.0
+    l1: 1.0
+    l2: 0.6
+    b1: 5.0
+    b2: 5.0
+    g: 9.81
+    q0: [0.785398, -0.785398]
 ```
-</div>
 
 Posiciones:
 <img width="1408" height="1051" alt="exp1_pos" src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" />
@@ -158,22 +155,19 @@ Aceleraciones:
 
 ### Experimento 2
 
-<p align="center" style="margin:0.4rem 0 0.6rem 0;"><strong>uma_arm_dynamics (parámetros) — Experimento 2</strong></p>
-
-<div align="center" style="max-width:720px; margin:0 auto;">
 ```yaml
-ros__parameters:
-  frequency: 1000.0
-  m1: 1.5
-  m2: 1.0
-  l1: 1.0
-  l2: 0.6
-  b1: 2.5
-  b2: 2.5
-  g: 9.81
-  q0: [0.785398, -0.785398]
+uma_arm_dynamics:
+  ros__parameters:
+    frequency: 1000.0
+    m1: 1.5
+    m2: 1.0
+    l1: 1.0
+    l2: 0.6
+    b1: 2.5
+    b2: 2.5
+    g: 9.81
+    q0: [0.785398, -0.785398]
 ```
-</div>
 
 Posición 1:
 ![alt text](posicion2_1.png)
@@ -188,22 +182,19 @@ Aceleraciones:
 
 ### Experimento 4
 
-<p align="center" style="margin:0.4rem 0 0.6rem 0;"><strong>uma_arm_dynamics (parámetros) — Experimento 4</strong></p>
-
-<div align="center" style="max-width:720px; margin:0 auto;">
 ```yaml
-ros__parameters:
-  frequency: 1000.0
-  m1: 7.0
-  m2: 1.0
-  l1: 1.0
-  l2: 0.6
-  b1: 4.0
-  b2: 2.0
-  g: 9.81
-  q0: [0.785398, -0.785398]
+uma_arm_dynamics:
+  ros__parameters:
+    frequency: 1000.0
+    m1: 7.0
+    m2: 1.0
+    l1: 1.0
+    l2: 0.6
+    b1: 4.0
+    b2: 2.0
+    g: 9.81
+    q0: [0.785398, -0.785398]
 ```
-</div>
 
 Posiciones:
 ![alt text](posiciones4.png)
@@ -211,4 +202,3 @@ Velocidades
 ![alt text](velocidades4.png)
 Aceleraciones:
 ![alt text](aceleraciones4.png)
-
