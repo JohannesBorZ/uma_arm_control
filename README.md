@@ -119,95 +119,109 @@ $$ \mathbf{q} = \int \dot{\mathbf{q}} Dt \implies \mathbf{q}_{k+1} = \mathbf{q}_
 
 
 ## Lanzar el nodo del simulador dinámico
-
-<div align="center" style="margin:1.5rem 0;">
-  <img src="esquema.png" alt="alt text" width="60%" />
+<div align="center" style="margin:2rem 0 1rem 0;">
+  <img src="esquema.png" alt="esquema" width="70%" style="max-width:900px;" />
+  <br />
+  <em>Esquema del sistema</em>
 </div>
 
-Esquema como esta en el enunciado:
-<div align="center" style="margin:1.5rem 0;">
-  <img src="grafo_rqt.jpg" alt="alt text" width="55%" style="max-width:700px;" />
+Esquema como está en el enunciado:
+<div align="center" style="margin:1rem 0 2rem 0;">
+  <img src="grafo_rqt.jpg" alt="grafo_rqt" width="70%" style="max-width:900px;" />
+  <br />
+  <em>Representación con rqt_graph</em>
 </div>
 
 ## Representación gráfica
 
 ### Experimento 1
+uma_arm_dynamics (parámetros):
+```yaml
+ros__parameters:
+  frequency: 1000.0
+  m1: 3.0
+  m2: 2.0
+  l1: 1.0
+  l2: 0.6
+  b1: 5.0
+  b2: 5.0
+  g: 9.81
+  q0: [0.785398, -0.785398]
+```
 
-uma_arm_dynamics:
-  ros__parameters:
-    frequency: 1000.0
-    m1: 3.0
-    m2: 2.0
-    l1: 1.0
-    l2: 0.6
-    b1: 5.0
-    b2: 5.0
-    g: 9.81
-    q0: [0.785398, -0.785398]
-
-Posiciones:
-<div align="center" style="margin:1rem 0;">
-  <img src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" alt="exp1_pos" width="48%" style="margin-right:4%; max-width:520px;" />
-  <img src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" alt="exp1_vel" width="48%" style="max-width:520px;" />
-</div>
-Aceleraciones:
-<div align="center" style="margin:1rem 0;">
-  <img src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" alt="exp1_acc" width="55%" style="max-width:620px;" />
+#### Posición
+<div align="center" style="margin:0.8rem 0;">
+  <img src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" alt="exp1_pos" width="55%" style="max-width:700px; margin-right:2%;" />
+  <img src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" alt="exp1_vel" width="55%" style="max-width:700px;" />
 </div>
 
-<div align="center" style="margin:1.5rem 0;">
-  <img src="exp1.gif" alt="Simulación Experimento 1" width="55%" style="max-width:620px;" />
+#### Aceleración
+<div align="center" style="margin:0.8rem 0 1.2rem 0;">
+  <img src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" alt="exp1_acc" width="65%" style="max-width:900px;" />
+</div>
+
+#### Simulación
+<div align="center" style="margin:1rem 0 1.5rem 0;">
+  <img src="exp1.gif" alt="exp1_sim" width="70%" style="max-width:900px;" />
 </div>
 
 ### Experimento 2
 
-uma_arm_dynamics:
-  ros__parameters:
-    frequency: 1000.0
-    m1: 1.5
-    m2: 1.0
-    l1: 1.0
-    l2: 0.6
-    b1: 2.5
-    b2: 2.5
-    g: 9.81
-    q0: [0.785398, -0.785398]
-Posición 1:
-<div align="center" style="margin:1rem 0;">
-  <img src="posicion2_1.png" alt="alt text" width="48%" style="margin-right:4%; max-width:520px;" />
-  <img src="posicion2_2.png" alt="alt text" width="48%" style="max-width:520px;" />
-</div>
-Velocidades:
-<div align="center" style="margin:1rem 0;">
-  <img src="velocidades2.png" alt="alt text" width="48%" style="margin-right:4%; max-width:520px;" />
-  <img src="aceleraciones2.png" alt="alt text" width="48%" style="max-width:520px;" />
+uma_arm_dynamics (parámetros):
+```yaml
+ros__parameters:
+  frequency: 1000.0
+  m1: 1.5
+  m2: 1.0
+  l1: 1.0
+  l2: 0.6
+  b1: 2.5
+  b2: 2.5
+  g: 9.81
+  q0: [0.785398, -0.785398]
+```
+
+#### Posición
+<div align="center" style="margin:0.8rem 0;">
+  <img src="posicion2_1.png" alt="pos2_1" width="55%" style="max-width:700px; margin-right:2%;" />
+  <img src="posicion2_2.png" alt="pos2_2" width="55%" style="max-width:700px;" />
 </div>
 
-<div align="center" style="margin:1.5rem 0;">
-  <img src="exp2.gif" alt="Simulación Experimento 2" width="55%" style="max-width:620px;" />
+#### Velocidad y Aceleración
+<div align="center" style="margin:0.8rem 0;">
+  <img src="velocidades2.png" alt="vel2" width="55%" style="max-width:700px; margin-right:2%;" />
+  <img src="aceleraciones2.png" alt="acc2" width="55%" style="max-width:700px;" />
+</div>
+
+#### Simulación
+<div align="center" style="margin:1rem 0 1.5rem 0;">
+  <img src="exp2.gif" alt="exp2_sim" width="70%" style="max-width:900px;" />
 </div>
 
 ### Experimento 3
 
-uma_arm_dynamics:
-  ros__parameters:
-    frequency: 1000.0
-    m1: 7.0
-    m2: 1.0
-    l1: 1.0
-    l2: 0.6
-    b1: 4.0
-    b2: 2.0
-    g: 9.81
-    q0: [0.785398, -0.785398]
+uma_arm_dynamics (parámetros):
+```yaml
+ros__parameters:
+  frequency: 1000.0
+  m1: 7.0
+  m2: 1.0
+  l1: 1.0
+  l2: 0.6
+  b1: 4.0
+  b2: 2.0
+  g: 9.81
+  q0: [0.785398, -0.785398]
+```
 
-Posiciones:
-<div align="center" style="margin:1rem 0;">
-  <img src="posiciones4.png" alt="alt text" width="48%" style="margin-right:4%; max-width:520px;" />
-  <img src="velocidades4.png" alt="alt text" width="48%" style="max-width:520px;" />
+#### Posición y Velocidad
+<div align="center" style="margin:0.8rem 0;">
+  <img src="posiciones4.png" alt="pos3" width="55%" style="max-width:700px; margin-right:2%;" />
+  <img src="velocidades4.png" alt="vel3" width="55%" style="max-width:700px;" />
 </div>
-Aceleraciones:
-<div align="center" style="margin:1.5rem 0;">
-  <img src="aceleraciones4.png" alt="alt text" width="55%" style="max-width:620px;" />
+
+#### Aceleración
+<div align="center" style="margin:1rem 0 1.5rem 0;">
+  <img src="aceleraciones4.png" alt="acc3" width="65%" style="max-width:900px;" />
 </div>
 
