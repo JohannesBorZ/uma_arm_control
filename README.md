@@ -120,11 +120,17 @@ $$ \mathbf{q} = \int \dot{\mathbf{q}} Dt \implies \mathbf{q}_{k+1} = \mathbf{q}_
 
 ## Lanzar el nodo del simulador dinámico
 
+<div align="center">
+  <img src="esquema.png" alt="esquema" width="70%" style="max-width:1100px;" />
+  <br>
+  <em>Figura: Esquema del sistema</em>
+</div>
 
-![alt text](esquema.png)
-
-Esquema como esta en el enunciado:
-![alt text](grafo_rqt.jpg)
+<div align="center" style="margin-top:1rem;">
+  <img src="grafo_rqt.jpg" alt="grafo_rqt" width="70%" style="max-width:1100px;" />
+  <br>
+  <em>Figura: Representación del sistema con rqt_graph</em>
+</div>
 
 ## Representación gráfica
 
@@ -144,14 +150,29 @@ uma_arm_dynamics:
     q0: [0.785398, -0.785398]
 ```
 
-Posiciones:
-<img width="1408" height="1051" alt="exp1_pos" src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" />
-Velocidades:
-<img width="1410" height="1054" alt="exp1_vel" src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" />
-Aceleraciones:
-<img width="1405" height="1051" alt="exp1_acc" src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" alt="exp1_pos" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Posiciones del Experimento 1</em>
+</div>
 
-![Simulación Experimento 1](exp1.gif)
+<div align="center" style="margin-top:1rem;">
+  <img src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" alt="exp1_vel" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Velocidades del Experimento 1</em>
+</div>
+
+<div align="center" style="margin-top:1rem;">
+  <img src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" alt="exp1_acc" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Aceleraciones del Experimento 1</em>
+</div>
+
+<div align="center" style="margin-top:1rem;">
+  <img src="exp1.gif" alt="exp1_sim" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Simulación Experimento 1</em>
+</div>
 
 ### Experimento 2
 
@@ -169,14 +190,29 @@ uma_arm_dynamics:
     q0: [0.785398, -0.785398]
 ```
 
-Posiciones:
-<img width="1402" height="1045" alt="exp2_pos" src="https://github.com/user-attachments/assets/6f05f320-1855-4bec-aba9-74e6cff444ae" />
-Velocidades:
-![alt text](velocidades2.png)
-Aceleraciones:
-![alt text](aceleraciones2.png)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6f05f320-1855-4bec-aba9-74e6cff444ae" alt="exp2_pos" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Posiciones del Experimento 2</em>
+</div>
 
-![Simulación Experimento 2](exp2.gif)
+<div align="center" style="margin-top:1rem;">
+  <img src="velocidades2.png" alt="vel2" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Velocidades del Experimento 2</em>
+</div>
+
+<div align="center" style="margin-top:1rem;">
+  <img src="aceleraciones2.png" alt="acc2" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Aceleraciones del Experimento 2</em>
+</div>
+
+<div align="center" style="margin-top:1rem;">
+  <img src="exp2.gif" alt="exp2_sim" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Simulación Experimento 2</em>
+</div>
 
 ### Experimento 3
 
@@ -194,9 +230,20 @@ uma_arm_dynamics:
     q0: [0.785398, -0.785398]
 ```
 
-Posiciones:
-![alt text](posiciones4.png)
-Velocidades
-![alt text](velocidades4.png)
-Aceleraciones:
-![alt text](aceleraciones4.png)
+<div align="center">
+  <img src="posiciones4.png" alt="posiciones4" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Posiciones del Experimento 3</em>
+</div>
+
+<div align="center" style="margin-top:1rem;">
+  <img src="velocidades4.png" alt="velocidades4" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Velocidades del Experimento 3</em>
+</div>
+
+<div align="center" style="margin-top:1rem;">
+  <img src="aceleraciones4.png" alt="aceleraciones4" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Aceleraciones del Experimento 3</em>
+</div>
