@@ -180,7 +180,7 @@ Aceleraciones:
 
 ![Simulación Experimento 2](exp2.gif)
 
-### Experimento 4
+### Experimento 3
 
 ```yaml
 uma_arm_dynamics:
