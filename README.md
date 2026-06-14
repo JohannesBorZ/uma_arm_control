@@ -247,3 +247,9 @@ uma_arm_dynamics:
   <br>
   <em>Figura: Aceleraciones del Experimento 3</em>
 </div>
+
+<div align="center" style="margin-top:1rem;">
+  <img src="exp3.gif" alt="exp2_sim" width="70%" style="max-width:1000px;" />
+  <br>
+  <em>Figura: Simulación Experimento 3</em>
+</div>
