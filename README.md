@@ -120,14 +120,13 @@ $$ \mathbf{q} = \int \dot{\mathbf{q}} Dt \implies \mathbf{q}_{k+1} = \mathbf{q}_
 
 ## Lanzar el nodo del simulador dinámico
 
-<div align="center" style="margin-bottom:1rem;">
-  <img src="esquema.png" alt="alt text" width="70%" />
+<div align="center" style="margin-bottom:1.5rem;">
+  <img src="esquema.png" alt="alt text" width="60%" />
 </div>
 
 Esquema como esta en el enunciado:
-
 <div align="center" style="margin-bottom:1.5rem;">
-  <img src="grafo_rqt.jpg" alt="alt text" width="70%" />
+  <img src="grafo_rqt.jpg" alt="alt text" width="60%" />
 </div>
 
 ## Representación gráfica
@@ -147,24 +146,21 @@ uma_arm_dynamics:
     q0: [0.785398, -0.785398]
 
 Posiciones:
-
 <div align="center" style="margin-bottom:1rem;">
-  <span style="display:inline-block; width:45%; margin-right:4%; vertical-align:top;">
+  <span style="display:inline-block; width:45%; margin-right:4%;">
     <img src="https://github.com/user-attachments/assets/45f14217-ce60-4168-8521-f8e476bc4129" alt="exp1_pos" width="100%" />
   </span>
-  <span style="display:inline-block; width:45%; vertical-align:top;">
+  <span style="display:inline-block; width:45%;">
     <img src="https://github.com/user-attachments/assets/95a56708-a60c-4119-9ae8-0032caeb64f7" alt="exp1_vel" width="100%" />
   </span>
 </div>
-
 Aceleraciones:
-
 <div align="center" style="margin-bottom:1rem;">
   <img src="https://github.com/user-attachments/assets/4fee3646-6da8-4cde-bd19-4bf2ac8b5492" alt="exp1_acc" width="60%" />
 </div>
 
 <div align="center" style="margin-bottom:1.5rem;">
-  <img src="exp1.gif" alt="Simulación Experimento 1" width="70%" />
+  <img src="exp1.gif" alt="Simulación Experimento 1" width="60%" />
 </div>
 
 ### Experimento 2
@@ -180,31 +176,27 @@ uma_arm_dynamics:
     b2: 2.5
     g: 9.81
     q0: [0.785398, -0.785398]
-
 Posición 1:
-
 <div align="center" style="margin-bottom:1rem;">
-  <span style="display:inline-block; width:45%; margin-right:4%; vertical-align:top;">
+  <span style="display:inline-block; width:45%; margin-right:4%;">
     <img src="posicion2_1.png" alt="alt text" width="100%" />
   </span>
-  <span style="display:inline-block; width:45%; vertical-align:top;">
+  <span style="display:inline-block; width:45%;">
     <img src="posicion2_2.png" alt="alt text" width="100%" />
   </span>
 </div>
-
 Velocidades:
-
 <div align="center" style="margin-bottom:1rem;">
-  <span style="display:inline-block; width:45%; margin-right:4%; vertical-align:top;">
+  <span style="display:inline-block; width:45%; margin-right:4%;">
     <img src="velocidades2.png" alt="alt text" width="100%" />
   </span>
-  <span style="display:inline-block; width:45%; vertical-align:top;">
+  <span style="display:inline-block; width:45%;">
     <img src="aceleraciones2.png" alt="alt text" width="100%" />
   </span>
 </div>
 
 <div align="center" style="margin-bottom:1.5rem;">
-  <img src="exp2.gif" alt="Simulación Experimento 2" width="70%" />
+  <img src="exp2.gif" alt="Simulación Experimento 2" width="60%" />
 </div>
 
 ### Experimento 3
@@ -222,19 +214,16 @@ uma_arm_dynamics:
     q0: [0.785398, -0.785398]
 
 Posiciones:
-
 <div align="center" style="margin-bottom:1rem;">
-  <span style="display:inline-block; width:45%; margin-right:4%; vertical-align:top;">
+  <span style="display:inline-block; width:45%; margin-right:4%;">
     <img src="posiciones4.png" alt="alt text" width="100%" />
   </span>
-  <span style="display:inline-block; width:45%; vertical-align:top;">
+  <span style="display:inline-block; width:45%;">
     <img src="velocidades4.png" alt="alt text" width="100%" />
   </span>
 </div>
-
 Aceleraciones:
-
-<div align="center" style="margin-bottom:1rem;">
+<div align="center" style="margin-bottom:1.5rem;">
   <img src="aceleraciones4.png" alt="alt text" width="60%" />
 </div>
 
